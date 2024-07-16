@@ -132,20 +132,20 @@ body {
     margin: 20px;
 }
 
-.mt-2{
+.mt-2 {
     margin-top: 10px;
 }
 
-.mt-4{
+.mt-4 {
     margin-top: 20px;
 }
 
-.mb-2{
-    margin-top: 10px;
+.mb-2 {
+    margin-bottom: 10px;
 }
 
-.mb-4{
-    margin-top: 20px;
+.mb-4 {
+    margin-bottom: 20px;
 }
 
 /* margin classes started */
@@ -172,11 +172,11 @@ body {
 
 /* text classes started */
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
-.text-none{
+.text-none {
     text-decoration: none;
     color: var(--white);
 }
