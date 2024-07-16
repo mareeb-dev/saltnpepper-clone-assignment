@@ -29,7 +29,7 @@
 }
 
 :root {
-    --red: #dc3545;
+    --red: #ed1c24;
     --green: #28a745;
     --white: #ffffff;
     --black: #000000;
@@ -162,6 +162,7 @@ body {
 
 .text-none{
     text-decoration: none;
+    color: var(--white);
 }
 
 /* text classes ended */
