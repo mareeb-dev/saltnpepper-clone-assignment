@@ -11,7 +11,7 @@
     --futurak-regular: futurak-regular;
 }
 
-/* navbar started */
+/* navbar section started */
 
 .navbar {
     margin-top: 10px;
@@ -50,12 +50,15 @@
     margin-left: 7px;
 }
 
-/* navbar ended */
+/* navbar section ended */
 
-/* carousel started */
+/* carousel section started */
 
 .carousel{
     width: 100vw;
 }
 
-/* carousel ended */
+/* carousel section ended */
+
+/* restaurants section started */
+/* restaurants section ended */
