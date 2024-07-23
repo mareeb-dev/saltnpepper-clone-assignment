@@ -11,10 +11,10 @@
     --futurak-regular: futurak-regular;
     --d-grey: #ffffff0f;
     --l-grey: #ffffffb3;
+    --futura_black_bt: futura-black;
 }
 
 /* navbar section started */
-
 .navbar {
     margin-top: 10px;
 }
@@ -55,7 +55,6 @@
 /* navbar section ended */
 
 /* carousel section started */
-
 .carousel {
     width: 100%;
 }
@@ -63,7 +62,6 @@
 /* carousel section ended */
 
 /* restaurants section started */
-
 .restaurant-text {
     margin-top: 80px;
 }
@@ -118,7 +116,6 @@
 /* restaurants section ended */
 
 /* franchise section started */
-
 .franchise-section {
     background-color: var(--d-grey);
     padding: 70px 70px 35px 70px;
@@ -212,7 +209,6 @@
 /* franchise section ended */
 
 /* express section started */
-
 .express-section {
     padding: 70px;
 }
@@ -224,12 +220,12 @@
     z-index: -1;
 }
 
-.express-restaurant{
+.express-restaurant {
     margin: 50px 25px 50px 25px;
 
 }
 
-.express-restaurant-2{
+.express-restaurant-2 {
     margin: 50px 200px;
 }
 
@@ -297,22 +293,22 @@
 /* express section ended */
 
 /* village section started */
-
-.village-section{
+.village-section {
     background-color: var(--d-grey);
     padding: 70px 70px 35px 70px;
 
 }
 
-.gujranwala-village{
+.gujranwala-village {
     margin: 40px 0px;
 }
 
-.village-image{
+.village-image {
     width: 600px;
     border-radius: 3px;
 }
-.direction-btn-village{
+
+.direction-btn-village {
     background-color: var(--green);
     border: 1px solid none;
     padding: 12px 16.5px;
@@ -323,11 +319,98 @@
     line-height: 21px;
 }
 
-.font-bg-village{
+.font-bg-village {
     background-color: #ffffff;
     color: var(--green);
     padding: 6px 7px;
     border-radius: 23px;
     margin-left: 7px;
 }
+
 /* village section ended */
+/* opening section started */
+.opening-section {
+    padding: 70px;
+}
+
+.opening-soon {
+    font-family: var(--butler-regular);
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.open-1,
+.open-2,
+.open-3 {
+    margin: 25px 50px;
+}
+
+.city-open {
+    background-color: var(--white);
+    border-radius: 3px;
+    width: 350px;
+    height: 230px;
+}
+
+.location-icon {
+    color: var(--red);
+    font-size: 4.5rem;
+    margin-bottom: 1px;
+    padding: 10px;
+}
+
+.opening-text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 12px;
+    letter-spacing: 7.5px;
+    text-transform: uppercase;
+    color: var(--red);
+    margin-bottom: 8px;
+}
+
+.open-text-express {
+    line-height: 29px;
+    font-size: 2.1rem;
+    margin-bottom: 5px;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    color: var(--black);
+}
+
+.open-futurak-snp-express {
+    font-family: var(--futurak-regular);
+    font-size: 2.2rem;
+    letter-spacing: 3px;
+    line-height: 29px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    color: var(--black);
+}
+
+.location-name {
+    font-family: var(--futura_black_bt);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.1rem;
+    line-height: 29px;
+    color: var(--black);
+}
+
+.city-name {
+    font-family: var(--futura_black_bt);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.1rem;
+    color: var(--black);
+    margin-bottom: 5px;
+    line-height: 30px;
+}
+
+/* opening section ended */

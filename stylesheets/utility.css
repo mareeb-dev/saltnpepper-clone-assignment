@@ -28,6 +28,11 @@
     src: url(../fonts/Futurak.ttf);
 }
 
+@font-face {
+    font-family: futura_black_bt;
+    src: url(../fonts/futura_black_bt.ttf);
+}
+
 :root {
     --red: #ed1c24;
     --green: #28a745;
@@ -39,6 +44,9 @@
     --butler-regular: butler-regular;
     --butler-bold: butler-bold;
     --futurak-regular: futurak-regular;
+    --d-grey: #ffffff0f;
+    --l-grey: #ffffffb3;
+    --futura_black_bt: futura-black;
 }
 
 * {
