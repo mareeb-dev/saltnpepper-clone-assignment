@@ -181,6 +181,10 @@ body {
     color: var(--white);
 }
 
+.text-upper{
+    text-transform: uppercase;
+}
+
 /* text classes ended */
 
 /* utility classes ended */

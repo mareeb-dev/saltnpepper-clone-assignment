@@ -144,6 +144,9 @@
     font-size: 1.6rem;
     color: var(--red);
     margin-bottom: 8px;
+    display: block;
+    font-style: normal;
+    font-weight: 500;
 }
 
 .city-futurak-snp {
@@ -190,16 +193,16 @@
     line-height: 21px;
 }
 
-.city-restaurant-image{
+.city-restaurant-image {
     width: 450px;
     height: 245px;
 }
 
-.snp-image{
+.snp-image {
     position: relative;
 }
 
-.snp-right{
+.snp-right {
     position: absolute;
     right: 0px;
     bottom: 650px;
@@ -207,3 +210,88 @@
 }
 
 /* franchise section ended */
+
+/* express section started */
+
+.express-section {
+    padding: 70px;
+}
+
+.snp-left {
+    position: absolute;
+    left: -25px;
+    top: -100px;
+    z-index: -1;
+}
+
+.express-restaurant{
+    margin: 50px 25px 50px 25px;
+
+}
+
+.express-restaurant-2{
+    margin: 50px 200px;
+}
+
+
+.express-restaurant-image {
+    width: 350px;
+    height: 250px;
+}
+
+.uppercity-express {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 15px;
+    letter-spacing: 7.5px;
+    text-transform: uppercase;
+    color: var(--red);
+    text-align: center;
+    margin-bottom: 8px;
+    display: block;
+    margin-top: 24px;
+}
+
+.city-futurak-snp-express {
+    font-family: var(--futurak-regular);
+    font-size: 2.4rem;
+    letter-spacing: 3px;
+    line-height: 29px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+}
+
+.city-text-express {
+    line-height: 29px;
+    font-size: 2.4rem;
+    margin-bottom: 18px;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+}
+
+.restaurant-address-express {
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0.5px;
+    color: var(--l-grey);
+    margin-bottom: 12px;
+    font-style: normal;
+}
+
+.restaurant-contact-express {
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0.5px;
+    color: var(--l-grey);
+    font-style: normal;
+    margin-bottom: 40px;
+}
+
+/* express section ended */
