@@ -330,7 +330,7 @@
 /* village section ended */
 /* opening section started */
 .opening-section {
-    padding: 70px;
+    padding: 70px 70px 25px 70px;
 }
 
 .opening-soon {
@@ -412,5 +412,20 @@
     margin-bottom: 5px;
     line-height: 30px;
 }
-
 /* opening section ended */
+
+/* feed section started */
+.social{
+    font-family: var(--butler-regular);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3.2rem;
+    line-height: 50px;
+}
+
+.post{
+    width: 250px;
+    height: 250px;
+    margin-bottom: 60px;
+}
+/* feed section endeded */
