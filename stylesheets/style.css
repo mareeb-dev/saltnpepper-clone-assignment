@@ -575,3 +575,9 @@ hr {
     letter-spacing: 0.5px;
     color: var(--l-grey);
 }
+
+.profile-link{
+    text-decoration: none;
+    color: var(--l-grey);
+}
+/* footer section ended */
