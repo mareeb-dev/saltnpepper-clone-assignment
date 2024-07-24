@@ -203,4 +203,8 @@ body {
 
 /* text classes ended */
 
+.bd-bottom{
+    border-bottom: 1px solid #ffffff14;
+}
+
 /* utility classes ended */

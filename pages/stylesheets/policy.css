@@ -54,6 +54,45 @@
 
 /* navbar section ended */
 
+/* content section started */
+.content {
+    padding: 72px 0px;
+}
+
+.pp-heading {
+    font-family: var(--butler-regular);
+    font-style: normal;
+    font-size: 4rem;
+    line-height: 46px;
+    color: var(--white);
+}
+
+.text {
+    font-family: var(--apercu-medium);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 21px;
+    letter-spacing: 0.5px;
+    color: var(--l-grey);
+    text-align: left;
+    margin: 50px 100px 0px 100px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--white);
+}
+
+strong{
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--white);
+}
+
+/* content section ended */
+
+
 /* footer section started */
 .footer-section {
     color: var(--white);
