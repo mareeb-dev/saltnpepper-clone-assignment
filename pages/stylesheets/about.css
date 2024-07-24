@@ -54,6 +54,64 @@
 
 /* navbar section ended */
 
+/* content section started */
+.content {
+    padding: 72px 0px;
+}
+
+.intro-heading {
+    font-family: var(--butler-regular);
+    font-style: normal;
+    font-size: 4rem;
+    line-height: 46px;
+    color: var(--white);
+    margin-bottom: 32px;
+}
+
+.sub-heading{
+    font-family: var(--butler-regular);
+    font-style: normal;
+    font-size: 4rem;
+    line-height: 46px;
+    color: var(--white);
+    margin: 32px 0px;
+}
+
+.text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 21px;
+    letter-spacing: 0.5px;
+    color: var(--l-grey);
+    margin: 0px 100px 15px 100px;
+}
+
+.history-text {
+    line-height: 38px;
+    font-size: 3.2rem;
+    margin-bottom: 24px;
+    font-weight: 400;
+}
+.text-1{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    color: var(--l-grey);
+    margin-bottom: 10px;
+}
+.history-restaurant-image{
+    width: 540px;
+    height: 345px;
+}
+
+.history1{
+    margin: 80px 40px;
+
+}
+/* content section ended */
 /* footer section started */
 .footer-section {
     color: var(--white);
