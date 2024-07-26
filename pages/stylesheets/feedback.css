@@ -12,7 +12,9 @@
     --d-grey: #ffffff0f;
     --l-grey: #ffffffb3;
     --futura_black_bt: futura-black;
+    --dosis-regular: dosis-regular;
 }
+
 
 /* navbar section started */
 .navbar {
@@ -53,7 +55,189 @@
 }
 
 /* navbar section ended */
+/* content section started */
+.background-image {
+    position: relative;
+    display: inline-block;
+}
 
+.background-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+    opacity: 0.5;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--white);
+    padding: 10px 20px;
+    font-size: 2rem;
+}
+
+.snp-heading {
+    font-style: normal;
+    font-size: 4.8rem;
+    line-height: 1;
+}
+
+.snp-feedback {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1;
+    text-transform: capitalize;
+    font-size: 10rem;
+}
+
+.snp-text {
+    font-family: var(--dosis-regular);
+    font-style: normal;
+    font-weight: 200;
+    font-size: 1.8rem;
+    text-transform: capitalize;
+}
+
+.text-1 {
+    font-family: var(--dosis-regular);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 30px;
+    color: var(--white);
+    margin-top: 12px;
+    padding: 25px;
+}
+
+.food,
+.service,
+.cleanliness,
+.money {
+    margin: 20px;
+}
+
+.heading {
+    font-size: 3rem;
+}
+
+.stars {
+    display: inline-flex;
+    margin-top: 20px;
+}
+
+.star {
+    font-size: 2rem;
+    padding: 6px;
+    border: 1px solid #cccccc;
+    border-radius: 30px;
+    margin-right: 5px;
+}
+
+.form {
+    margin: 20px;
+}
+
+form h5,
+p {
+    font-size: 1.6rem;
+    line-height: 1.7;
+}
+
+#small_labels,
+.radio,
+.checkbox {
+    font-size: 1.6rem;
+    line-height: 1.7;
+    margin-right: 10px;
+}
+
+.mobile-div {
+    padding: 6px 6px 6px 0px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.des-dev {
+    width: 100%;
+    padding: 6px 12px;
+    margin-bottom: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+input {
+    padding: 6px 12px;
+}
+
+.left-side {
+    border-right: 1px dashed #d4d4d4;
+}
+
+.submit-btn {
+    padding: 12px 16.5px;
+    border-radius: 35px;
+    border: none;
+    background-color: var(--red);
+    color: var(--white);
+    font-size: 1.4rem;
+    margin: 20px 0px;
+}
+
+.head1,
+.head2,
+.head3 {
+    font-family: sans-serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+
+.food-text {
+    text-align: justify;
+    font-family: var(--dosis-regular);
+    font-size: 1.7rem;
+    font-weight: 400;
+    line-height: 21px;
+    margin: 0px 35px;
+}
+
+.text-2,
+.text-3,
+.text-4 {
+    gap: 35px 0px;
+}
+
+.list {
+    list-style: none;
+}
+
+.fas {
+    color: var(--white);
+    border-radius: 50%;
+    font-size: 1.4rem;
+    margin: 10px 5px 10px 0px;
+}
+
+.link {
+    color: var(--white);
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
+.map {
+    z-index: 3;
+    height: 400px;
+    width: 600px;
+    padding: 10px;
+    touch-action: pan-x pan-y;
+}
+
+/* content section ended */
 /* footer section started */
 .footer-section {
     color: var(--white);
@@ -198,7 +382,7 @@ hr {
     color: var(--l-grey);
 }
 
-.profile-link{
+.profile-link {
     text-decoration: none;
     color: var(--l-grey);
 }

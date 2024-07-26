@@ -33,6 +33,12 @@
     src: url(../fonts/futura_black_bt.ttf);
 }
 
+@font-face {
+    font-family: dosis-regular;
+    src: url(../fonts/Dosis-Regular.ttf);
+}
+
+
 :root {
     --red: #ed1c24;
     --green: #28a745;
@@ -47,6 +53,7 @@
     --d-grey: #ffffff0f;
     --l-grey: #ffffffb3;
     --futura_black_bt: futura-black;
+    --dosis-regular: dosis-regular;
 }
 
 * {
