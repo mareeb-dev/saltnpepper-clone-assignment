@@ -93,7 +93,7 @@ body {
 }
 
 .flex-wrap {
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
 .flex-column {
