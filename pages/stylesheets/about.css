@@ -151,6 +151,44 @@
     font-weight: 400;
 }
 
+.text-3{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 21px;
+    letter-spacing: 0.5px;
+    color: var(--l-grey);
+    margin: 40px 0px;
+}
+
+.express1{
+    margin: 80px 40px;
+}
+
+.express-restaurant-image{
+    width: 540px;
+    height: 345px;
+}
+
+.text-4{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    color: var(--l-grey);
+    margin-bottom: 10px;
+}
+
+.village-image1{
+    width: 540px;
+    height: 345px;
+}
+
+.gujranwala-village1{
+    margin: 80px 40px;
+}
+
 /* content section ended */
 /* footer section started */
 .footer-section {
