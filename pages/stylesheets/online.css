@@ -55,7 +55,20 @@
 }
 
 /* navbar section ended */
+/* content section started  */
+.underprocess {
+    position: relative;
+    display: inline-block;
+}
 
+.under-process-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    opacity: 0.5;
+}
+
+/* content section ended */
 /* footer section started */
 .footer-section {
     color: var(--white);
@@ -200,7 +213,7 @@ hr {
     color: var(--l-grey);
 }
 
-.profile-link{
+.profile-link {
     text-decoration: none;
     color: var(--l-grey);
 }
