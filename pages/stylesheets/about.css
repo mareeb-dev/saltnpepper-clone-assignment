@@ -68,7 +68,7 @@
     margin-bottom: 32px;
 }
 
-.sub-heading{
+.sub-heading {
     font-family: var(--butler-regular);
     font-style: normal;
     font-size: 4rem;
@@ -77,7 +77,7 @@
     margin: 32px 0px;
 }
 
-.text{
+.text {
     font-style: normal;
     font-weight: 400;
     font-size: 1.6rem;
@@ -93,7 +93,8 @@
     margin-bottom: 24px;
     font-weight: 400;
 }
-.text-1{
+
+.text-1 {
     font-style: normal;
     font-weight: 400;
     font-size: 1.5rem;
@@ -101,16 +102,55 @@
     letter-spacing: 0.5px;
     color: var(--l-grey);
     margin-bottom: 10px;
+    text-align: left;
 }
-.history-restaurant-image{
+
+.history-restaurant-image {
     width: 540px;
     height: 345px;
 }
 
-.history1{
+.franchise-restaurant-image{
+    width: 540px;
+    height: 250px;
+}
+
+.history1 {
     margin: 80px 40px;
 
 }
+
+.text-2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.2rem;
+    line-height: 29px;
+    color: var(--white);
+    margin-right: 12px;
+}
+
+.f-text-futurak-snp {
+    font-family: var(--futurak-regular);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.2rem;
+    line-height: 29px;
+    color: var(--white);
+    margin-right: 12px;
+    text-align: left;
+}
+
+.franchise1{
+    margin: 80px 40px;
+}
+
+.franchise-text{
+    line-height: 38px;
+    font-size: 3.2rem;
+    margin-bottom: 24px;
+    font-weight: 400;
+}
+
 /* content section ended */
 /* footer section started */
 .footer-section {
@@ -256,7 +296,7 @@ hr {
     color: var(--l-grey);
 }
 
-.profile-link{
+.profile-link {
     text-decoration: none;
     color: var(--l-grey);
 }
