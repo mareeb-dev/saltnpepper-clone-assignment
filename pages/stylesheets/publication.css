@@ -94,7 +94,7 @@
 
 .address,
 .tell,
-.details {
+.phone {
     font-family: var(--apercu-light);
     font-style: normal;
     font-weight: 400;
@@ -103,7 +103,6 @@
     letter-spacing: 0.5px;
     color: var(--l-grey);
     margin-bottom: 10px;
-    text-decoration: none;
 }
 
 /* content section ended */
